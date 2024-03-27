@@ -4,11 +4,11 @@
 package org.felirx.javaleetcode;
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+  public static void main(String[] args) {
+    Problem9 problem = new Problem9();
 
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
+    System.out.println(String.format("x = 121 %s", problem.isPalindrome(121)));
+    System.out.println(String.format("x = -121 %s", problem.isPalindrome(-121)));
+    System.out.println(String.format("x = 10 %s", problem.isPalindrome(10)));
+  }
 }
