@@ -5,10 +5,6 @@ package org.felirx.javaleetcode;
 
 public class App {
   public static void main(String[] args) {
-    Problem9 problem = new Problem9();
-
-    System.out.println(String.format("x = 121 %s", problem.isPalindrome(121)));
-    System.out.println(String.format("x = -121 %s", problem.isPalindrome(-121)));
-    System.out.println(String.format("x = 10 %s", problem.isPalindrome(10)));
+    Problem10.RunProblem10();
   }
 }
